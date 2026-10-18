@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://isuri-navodya.netlify.app/sitemap.xml

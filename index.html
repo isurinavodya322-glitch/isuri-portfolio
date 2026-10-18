@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- Primary SEO Meta Tags -->
+  <title>Isuri Navodya | HNDIT Student &amp; Aspiring Software Developer</title>
+  <meta name="title" content="Isuri Navodya | HNDIT Student &amp; Aspiring Software Developer" />
+  <meta name="description" content="Personal portfolio of Isuri Navodya, an HNDIT student passionate about software engineering, web application development, database management, and UI/UX design." />
+  <meta name="author" content="Isuri Navodya" />
+  <meta name="theme-color" content="#080710" />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Isuri Navodya | HNDIT Student &amp; Aspiring Software Developer" />
+  <meta property="og:description" content="Explore projects, skills, education, and software development journey of Isuri Navodya." />
+  <meta property="og:image" content="images/avatar-placeholder.svg" />
+
+  <!-- Favicon (High-Contrast Purple Glow SVG) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%238B5CF6'/><text x='16' y='22' font-family='sans-serif' font-size='16' font-weight='bold' fill='white' text-anchor='middle'>IN</text></svg>" />
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Ambient Glowing Mesh Background Orbs -->
+  <div class="ambient-glow-wrapper" aria-hidden="true">
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+  </div>
+
+  <!-- Background Subtle Grid Pattern -->
+  <div class="bg-grid-overlay" aria-hidden="true"></div>
+
+  <!-- Main Application Wrapper -->
+  <div class="app-content">
+
+    <!-- Configurable Email Verification Alert Banner -->
+    <aside id="verification-banner" class="verification-banner" role="alert" aria-label="Configuration Notice"></aside>
+
+    <!-- Global Navigation Header -->
+    <header class="navbar" role="banner">
+      <div class="container nav-container">
+        
+        <!-- Brand Logo -->
+        <a href="#hero" class="brand-logo" aria-label="Isuri Navodya Portfolio Homepage">
+          <div class="brand-icon" aria-hidden="true">IN</div>
+          <div>
+            <span>Isuri Navodya</span>
+            <span class="brand-text-sub">Portfolio</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Menu -->
+        <nav role="navigation" aria-label="Main Navigation">
+          <ul class="nav-menu">
+            <li><a href="#hero" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About Me</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Navbar Actions (Desktop Contact CTA & Mobile Toggle) -->
+        <div class="nav-actions">
+          <a href="#contact" class="btn btn-sm btn-primary">
+            <span>Get in Touch</span>
+          </a>
+          <button id="mobile-toggle-btn" class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- Mobile Slide-out Drawer Navigation -->
+    <div id="mobile-drawer" class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
+      <ul class="mobile-nav-list">
+        <li><a href="#hero" class="mobile-nav-link"><span>Home</span> →</a></li>
+        <li><a href="#about" class="mobile-nav-link"><span>About Me</span> →</a></li>
+        <li><a href="#education" class="mobile-nav-link"><span>Education</span> →</a></li>
+        <li><a href="#skills" class="mobile-nav-link"><span>Technical Skills</span> →</a></li>
+        <li><a href="#projects" class="mobile-nav-link"><span>My Projects</span> →</a></li>
+        <li><a href="#contact" class="mobile-nav-link"><span>Contact Me</span> →</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <a href="#contact" class="btn btn-primary" style="width: 100%;">Contact Isuri Navodya</a>
+      </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <main id="main-content" role="main">
+
+      <!-- =====================================================================
+           1. HERO SECTION
+           ===================================================================== -->
+      <section id="hero" class="hero-section" aria-label="Introduction">
+        <div class="container">
+          <div class="hero-grid">
+
+            <!-- Hero Left: Text & Actions -->
+            <div class="hero-content">
+              
+              <!-- Availability Status Pill -->
+              <div id="hero-status-pill" class="hero-status-pill">
+                <span class="status-indicator-dot"></span>
+                <span>Open to Internships &amp; Projects</span>
+              </div>
+
+              <!-- Main Heading -->
+              <h1 id="hero-title" class="hero-title">
+                <span class="hero-greeting">Hi, I'm</span>
+                <span class="gradient-text">Isuri Navodya</span>
+              </h1>
+
+              <!-- Subtitle -->
+              <p id="hero-subtitle" class="hero-subtitle">
+                HNDIT Student &amp; Aspiring Software Developer
+              </p>
+
+              <!-- Introduction -->
+              <p id="hero-intro" class="hero-intro">
+                I am an HNDIT student passionate about software development, web application development, database management, and UI/UX design. I enjoy learning modern technologies and creating useful, user-friendly digital solutions.
+              </p>
+
+              <!-- Action Buttons -->
+              <div class="hero-cta-group">
+                <a href="#projects" class="btn btn-primary">
+                  <span>View My Projects</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <a href="#about" class="btn btn-secondary">
+                  <span>About Me</span>
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                  <span>Contact Me</span>
+                </a>
+              </div>
+
+              <!-- Social Links Strip -->
+              <div id="hero-social-icons" class="hero-social-strip"></div>
+
+            </div>
+
+            <!-- Hero Right: Profile Avatar & Interactive Tech Window -->
+            <div class="hero-visual-card">
+              
+              <!-- Profile Showcase -->
+              <div class="profile-showcase">
+                <div class="profile-glow-ring"></div>
+                <div class="profile-avatar-frame">
+                  <img id="hero-avatar-img" class="profile-avatar-img" src="images/avatar-placeholder.svg" alt="Isuri Navodya" />
+                </div>
+                <div class="profile-status-badge">
+                  <span class="dot"></span>
+                  <span>HNDIT • Sri Lanka</span>
+                </div>
+              </div>
+
+              <!-- Interactive Tech Window / Code Card -->
+              <div class="code-terminal-card" aria-label="Interactive Developer Code Snippet">
+                <div class="terminal-header">
+                  <div class="terminal-dots">
+                    <span class="t-dot red"></span>
+                    <span class="t-dot yellow"></span>
+                    <span class="t-dot green"></span>
+                  </div>
+                  <span class="terminal-title">developer-profile.js</span>
+                  <span style="font-size: 0.75rem; color: #7C3AED;">ES6+</span>
+                </div>
+                <div class="terminal-body">
+<pre><code><span class="syn-keyword">const</span> <span class="syn-const">developer</span> = <span class="syn-bracket">{</span>
+  <span class="syn-prop">name</span>: <span class="syn-str">"Isuri Navodya"</span>,
+  <span class="syn-prop">title</span>: <span class="syn-str">"HNDIT Student"</span>,
+  <span class="syn-prop">focus</span>: [<span class="syn-str">"Web Apps"</span>, <span class="syn-str">"Software Dev"</span>, <span class="syn-str">"UI/UX"</span>],
+  <span class="syn-prop">coreSkills</span>: [<span class="syn-str">"React"</span>, <span class="syn-str">"JavaScript"</span>, <span class="syn-str">"PHP"</span>, <span class="syn-str">"MySQL"</span>],
+  <span class="syn-prop">aspiration</span>: <span class="syn-str">"Building innovative, practical solutions"</span>
+<span class="syn-bracket">}</span>;</code></pre>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           2. ABOUT ME SECTION
+           ===================================================================== -->
+      <section id="about" class="about-section" aria-label="About Me">
+        <div class="container">
+
+          <header class="section-header">
+            <span class="section-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              <span>About Me</span>
+            </span>
+            <h2 class="section-title">
+              Passionate About Building <span class="purple-highlight">Meaningful Software</span>
+            </h2>
+            <p class="section-subtitle">
+              A dedicated developer driven by curiosity, modern technologies, and human-centered design.
+            </p>
+          </header>
+
+          <div class="about-grid">
+
+            <!-- About Left Column: Author Card & Quick Attributes -->
+            <div class="about-profile-card">
+              <div class="about-author-header">
+                <div class="about-author-avatar">
+                  <img id="about-avatar-img" src="images/avatar-placeholder.svg" alt="Isuri Navodya" />
+                </div>
+                <div class="about-author-info">
+                  <h3>Isuri Navodya</h3>
+                  <p>HNDIT Student &amp; Aspiring Developer</p>
+                </div>
+              </div>
+
+              <!-- Quick Info Cards -->
+              <div id="about-attributes-grid" class="about-attribute-list"></div>
+
+              <div style="border-top: 1px solid rgba(139, 92, 246, 0.15); padding-top: 1.25rem;">
+                <a href="#contact" class="btn btn-secondary btn-sm" style="width: 100%;">
+                  <span>Connect with Isuri</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- About Right Column: Narrative & Technical Focus Highlights -->
+            <div class="about-narrative">
+              
+              <!-- Professional Narrative Box -->
+              <div class="about-description-box">
+                <div class="about-quote-mark" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                </div>
+                <p id="about-description-text" class="about-text"></p>
+              </div>
+
+              <!-- Technical Highlight Cards Grid -->
+              <div id="about-highlights-grid" class="about-highlights-grid"></div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           3. EDUCATION SECTION
+           ===================================================================== -->
+      <section id="education" class="education-section" aria-label="Education">
+        <div class="container">
+
+          <header class="section-header">
+            <span class="section-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+              <span>Education</span>
+            </span>
+            <h2 class="section-title">
+              Academic Background &amp; <span class="purple-highlight">Coursework</span>
+            </h2>
+            <p class="section-subtitle">
+              Formal studies and foundational technical curriculum in Information Technology.
+            </p>
+          </header>
+
+          <!-- Timeline Container -->
+          <div id="education-timeline" class="education-timeline"></div>
+
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           4. TECHNICAL SKILLS SECTION
+           ===================================================================== -->
+      <section id="skills" class="skills-section" aria-label="Technical Skills">
+        <div class="container">
+
+          <header class="section-header">
+            <span class="section-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+              <span>Technical Skills</span>
+            </span>
+            <h2 class="section-title">
+              Skills, Technologies &amp; <span class="purple-highlight">Tools</span>
+            </h2>
+            <p class="section-subtitle">
+              Categorized inventory of frontend, backend, databases, design tools, and platforms.
+            </p>
+          </header>
+
+          <!-- Interactive Category Filter Navigation -->
+          <nav id="skills-filter-nav" class="skills-filter-nav" aria-label="Skills categories filter"></nav>
+
+          <!-- Skills Cards Grid -->
+          <div id="skills-grid" class="skills-grid"></div>
+
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           5. MY PROJECTS SECTION
+           ===================================================================== -->
+      <section id="projects" class="projects-section" aria-label="Featured Projects">
+        <div class="container">
+
+          <header class="section-header">
+            <span class="section-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+              <span>My Projects</span>
+            </span>
+            <h2 class="section-title">
+              Featured Software &amp; <span class="purple-highlight">System Projects</span>
+            </h2>
+            <p class="section-subtitle">
+              Practical applications built with a focus on business workflows, retail transactions, and modern system architectures.
+            </p>
+          </header>
+
+          <!-- Projects Grid Container -->
+          <div id="projects-grid" class="projects-grid"></div>
+
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           6. CONTACT SECTION
+           ===================================================================== -->
+      <section id="contact" class="contact-section" aria-label="Contact Information">
+        <div class="container">
+
+          <header class="section-header">
+            <span class="section-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>Contact</span>
+            </span>
+            <h2 class="section-title">
+              Get in Touch &amp; <span class="purple-highlight">Connect</span>
+            </h2>
+            <p class="section-subtitle">
+              Feel free to reach out regarding internships, software development projects, or academic collaborations.
+            </p>
+          </header>
+
+          <div class="contact-grid">
+
+            <!-- Contact Channels & Information Column -->
+            <div class="contact-info-col">
+              
+              <div class="contact-card">
+                <h3>Contact Details</h3>
+                <p>
+                  You can reach me directly via email or configure your preferred communication channels in the data file.
+                </p>
+
+                <div class="contact-channel-list">
+                  
+                  <!-- Email Channel -->
+                  <div class="contact-channel-item">
+                    <div class="channel-icon" aria-hidden="true">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                      </svg>
+                    </div>
+                    <div class="channel-details">
+                      <div class="channel-title">Professional Email</div>
+                      <div id="contact-email-value" class="channel-value">isurinavodya2002@gmial.com</div>
+                    </div>
+                    <button id="copy-email-btn" class="copy-btn" title="Copy email address" aria-label="Copy email address">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                      </svg>
+                    </button>
+                  </div>
+
+                  <!-- Location Channel -->
+                  <div class="contact-channel-item">
+                    <div class="channel-icon" aria-hidden="true">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                      </svg>
+                    </div>
+                    <div class="channel-details">
+                      <div class="channel-title">Location / Nationality</div>
+                      <div class="channel-value">Sri Lanka (Sri Lankan)</div>
+                    </div>
+                  </div>
+
+                  <!-- Direct Email Link Button -->
+                  <div style="margin-top: 0.5rem;">
+                    <a id="contact-mailto-btn" href="mailto:isurinavodya2002@gmial.com" class="btn btn-secondary btn-sm" style="width: 100%;">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                      </svg>
+                      <span>Open Default Email App</span>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- Email Verification Warning Box -->
+              <div id="email-verification-notice" class="email-notice-box" style="display: none;"></div>
+
+            </div>
+
+            <!-- Contact Message Form -->
+            <div class="contact-form-card">
+              <form id="contact-form" class="contact-form" novalidate>
+                
+                <!-- Status feedback alert box -->
+                <div id="form-status-alert" class="form-status-alert" role="status" aria-live="polite"></div>
+
+                <!-- Name Input -->
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">
+                    <span>Your Full Name</span>
+                    <span class="required-mark" aria-hidden="true">*</span>
+                  </label>
+                  <input 
+                    type="text" 
+                    id="contact-name" 
+                    class="form-control" 
+                    placeholder="e.g. John Doe" 
+                    required 
+                    autocomplete="name"
+                  />
+                  <span class="form-error-msg">Please enter your name.</span>
+                </div>
+
+                <!-- Email Input -->
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">
+                    <span>Your Email Address</span>
+                    <span class="required-mark" aria-hidden="true">*</span>
+                  </label>
+                  <input 
+                    type="email" 
+                    id="contact-email" 
+                    class="form-control" 
+                    placeholder="e.g. name@example.com" 
+                    required 
+                    autocomplete="email"
+                  />
+                  <span class="form-error-msg">Please enter a valid email address.</span>
+                </div>
+
+                <!-- Message Input -->
+                <div class="form-group">
+                  <label for="contact-message" class="form-label">
+                    <span>Your Message</span>
+                    <span class="required-mark" aria-hidden="true">*</span>
+                  </label>
+                  <textarea 
+                    id="contact-message" 
+                    class="form-control" 
+                    placeholder="Write your inquiry, project description, or feedback here..." 
+                    rows="4" 
+                    required
+                  ></textarea>
+                  <span class="form-error-msg">Please enter your message (at least 10 characters).</span>
+                </div>
+
+                <!-- Form Integration Notice -->
+                <div class="form-demo-notice">
+                  <strong>Notice:</strong> This form includes client-side validation. To automatically forward submissions to your inbox, connect an email service like Formspree or EmailJS in <code>js/portfolio-data.js</code>.
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                  <span>Send Message</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- =======================================================================
+         7. FOOTER
+         ======================================================================= -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="container">
+        
+        <div class="footer-top-grid">
+
+          <!-- Footer Brand Column -->
+          <div class="footer-brand-col">
+            <a href="#hero" class="brand-logo">
+              <div class="brand-icon">IN</div>
+              <div>
+                <span id="footer-full-name">Isuri Navodya</span>
+                <span class="brand-text-sub">Personal Portfolio</span>
+              </div>
+            </a>
+            <p class="footer-bio">
+              HNDIT student and aspiring software developer passionate about software engineering, web applications, and intuitive UI/UX design.
+            </p>
+          </div>
+
+          <!-- Quick Navigation Links Column -->
+          <div class="footer-links-col">
+            <h4>Quick Links</h4>
+            <ul id="footer-quick-links" class="footer-links-list"></ul>
+          </div>
+
+          <!-- Social Links Column -->
+          <div class="footer-social-col">
+            <h4>Connect</h4>
+            <div class="footer-social-links">
+              <a href="mailto:isurinavodya2002@gmial.com" class="footer-social-item">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span>Email (Configurable)</span>
+              </a>
+              <div class="footer-social-item" style="opacity: 0.7;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub (Add in data file)</span>
+              </div>
+              <div class="footer-social-item" style="opacity: 0.7;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                <span>LinkedIn (Add in data file)</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Footer Bottom Bar -->
+        <div class="footer-bottom-bar">
+          <p>
+            &copy; <span id="copyright-year"></span> Isuri Navodya. All rights reserved.
+          </p>
+          <button id="back-to-top-btn" class="back-to-top-btn" aria-label="Scroll back to top of page" title="Back to top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="19" x2="12" y2="5"></line>
+              <polyline points="5 12 12 5 19 12"></polyline>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/portfolio-data.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
